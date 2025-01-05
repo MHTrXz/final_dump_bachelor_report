@@ -1,0 +1,17 @@
+
+@misc{edge_local_2024,
+	title = {From Local to Global: A Graph {RAG} Approach to Query-Focused Summarization},
+	url = {http://arxiv.org/abs/2404.16130},
+	doi = {10.48550/arXiv.2404.16130},
+	shorttitle = {From Local to Global},
+	abstract = {The use of retrieval-augmented generation ({RAG}) to retrieve relevant information from an external knowledge source enables large language models ({LLMs}) to answer questions over private and/or previously unseen document collections. However, {RAG} fails on global questions directed at an entire text corpus, such as "What are the main themes in the dataset?", since this is inherently a query-focused summarization ({QFS}) task, rather than an explicit retrieval task. Prior {QFS} methods, meanwhile, fail to scale to the quantities of text indexed by typical {RAG} systems. To combine the strengths of these contrasting methods, we propose a Graph {RAG} approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text to be indexed. Our approach uses an {LLM} to build a graph-based text index in two stages: first to derive an entity knowledge graph from the source documents, then to pregenerate community summaries for all groups of closely-related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user. For a class of global sensemaking questions over datasets in the 1 million token range, we show that Graph {RAG} leads to substantial improvements over a na{\textbackslash}"ive {RAG} baseline for both the comprehensiveness and diversity of generated answers. An open-source, Python-based implementation of both global and local Graph {RAG} approaches is forthcoming at https://aka.ms/graphrag.},
+	number = {{arXiv}:2404.16130},
+	publisher = {{arXiv}},
+	author = {Edge, Darren and Trinh, Ha and Cheng, Newman and Bradley, Joshua and Chao, Alex and Mody, Apurva and Truitt, Steven and Larson, Jonathan},
+	urldate = {2025-01-02},
+	date = {2024-04-24},
+	eprinttype = {arxiv},
+	eprint = {2404.16130 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Information Retrieval},
+	file = {Preprint PDF:C\:\\Users\\MHTrXz\\Zotero\\storage\\U9RBGKMA\\Edge et al. - 2024 - From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf:application/pdf;Snapshot:C\:\\Users\\MHTrXz\\Zotero\\storage\\YGB72WSK\\2404.html:text/html},
+}
